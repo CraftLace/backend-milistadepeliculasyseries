@@ -33,3 +33,6 @@ app.listen(port, () => console.log(`App de ejemplo en el puerto ${port}!`));
 7. agregar "start": "node index.js"
 8. subirlo a heroku y poner el puerto lo de el servidor
    git push heroku main
+9. vamos a usar dot env para seguridad
+   require("dotenv").config();
+10. creamos el archivo .env y agregamos nuestros keys
