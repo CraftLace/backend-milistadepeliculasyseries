@@ -31,5 +31,5 @@ app.listen(port, () => console.log(`App de ejemplo en el puerto ${port}!`));
 5. en la terminal ejecutamos npm run dev y abrimos el puerto
 6. Servidor basico funcioando
 7. agregar "start": "node index.js"
-8. subirlo a heroku
+8. subirlo a heroku y poner el puerto lo de el servidor
    git push heroku main
