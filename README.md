@@ -32,4 +32,4 @@ app.listen(port, () => console.log(`App de ejemplo en el puerto ${port}!`));
 6. Servidor basico funcioando
 7. agregar "start": "node index.js"
 8. subirlo a heroku
-   heroku git:remote -a milistadepeliculasyseries
+   git push heroku main
