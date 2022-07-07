@@ -2,7 +2,7 @@ const express = require("express");
 //create server
 const app = express();
 //create port
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 //create route
 app.get("/", (req, res) => res.send("Hola Mundo!"));
 //start server
