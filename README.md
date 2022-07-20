@@ -7,6 +7,8 @@ Lista de Dependencias necesarias
 - swagger-jsdoc
 - swagger-ui-express
 - mongoose
+- cors
+- winston
 
 ## Crear servidor
 
@@ -36,3 +38,7 @@ app.listen(port, () => console.log(`App de ejemplo en el puerto ${port}!`));
 9. vamos a usar dot env para seguridad
    require("dotenv").config();
 10. creamos el archivo .env y agregamos nuestros keys
+11. usamos los cors y el swagger
+12. usar wisnton y logger para mejores mensajes
+13. crear los modelos, usar yup para validar los campos
+14. crear la ruta para ese modelo
